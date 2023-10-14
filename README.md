@@ -53,7 +53,9 @@ This finance management system is for educational purposes and doesn't offer rea
 ## Authors
 
 [Onkar Mendhapurkar](https://github.com/onkar69483)
+
 [Mihir Hebalkar](https://github.com/mihirhebalkar)
+
 [Sachin Mhetre](https://github.com/Sachin-Mhetre)
 
 ## License
