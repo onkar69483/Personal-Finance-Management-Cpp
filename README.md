@@ -22,6 +22,10 @@ This C++ Personal Finance Management System is a versatile console-based applica
 
 - **User-Friendly Menu**: Interactive menu for user-friendly operations.
 
+## Class Diagram
+
+![Class Diagram](PersonalFinanceSystem.drawio.png)
+
 ## Getting Started
 
 1. **Clone the Repository**: Clone or download the code from this repository.
@@ -204,18 +208,10 @@ This C++ Personal Finance Management System is a versatile console-based applica
     Enter choice :
     
     ```
-
     
-   
-
-
 ## Disclaimer
 
 This finance management system is for educational purposes and doesn't offer real financial advice or services. The interest rates used for investment calculations are fictional. Real financial decisions should be made with professional guidance.
-
-## Class Diagram
-
-![Class Diagram](PersonalFinanceSystem.drawio.png)
 
 ## Authors
 
