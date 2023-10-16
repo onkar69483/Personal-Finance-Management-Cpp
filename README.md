@@ -205,7 +205,7 @@ This C++ Personal Finance Management System is a versatile console-based applica
     4. Finance Information
     5. Investment Information
     0. Exit
-    Enter choice :
+    Enter choice : 0
     
     ```
     
