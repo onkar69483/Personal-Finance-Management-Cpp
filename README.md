@@ -48,27 +48,8 @@ This C++ Personal Finance Management System is a versatile console-based applica
 
 6. **INPUT and OUTPUT**:
     ```shell-session
-       ---Welcome to Finance Management System!!---
+    ---Welcome to Finance Management System!!---
     
-    --OPTIONS--
-    1. Record INCOME
-    2. Record EXPENDITURE
-    3. Make Investment
-    4. Finance Information
-    5. Investment Information
-    0. Exit
-    Enter choice : 4
-    -----------------------------------
-    |        Personal Finance        |
-    -----------------------------------
-    
-    ||--BALANCE--: 2000||
-    
-    --SAVINGS--:
-             Amount         Description
-    
-    --INVESTMENTS--
-             Amount       Duration                Type
     --OPTIONS--
     1. Record INCOME
     2. Record EXPENDITURE
@@ -77,8 +58,8 @@ This C++ Personal Finance Management System is a versatile console-based applica
     5. Investment Information
     0. Exit
     Enter choice : 1
-    Enter amount : 35000
-    Enter description : salary
+    Enter amount : 5000
+    Enter description : Salary
     
     --OPTIONS--
     1. Record INCOME
@@ -88,30 +69,9 @@ This C++ Personal Finance Management System is a versatile console-based applica
     5. Investment Information
     0. Exit
     Enter choice : 2
-    Enter amount: 5000
-    Enter description: shoes
+    Enter amount: 2000
+    Enter description: Rent
     
-    --OPTIONS--
-    1. Record INCOME
-    2. Record EXPENDITURE
-    3. Make Investment
-    4. Finance Information
-    5. Investment Information
-    0. Exit
-    Enter choice : 4
-    -----------------------------------
-    |        Personal Finance        |
-    -----------------------------------
-    
-    ||--BALANCE--: 32000||
-    
-    --SAVINGS--:
-             Amount         Description
-             Income          35000              salary
-        Expenditure           5000               shoes
-    
-    --INVESTMENTS--
-             Amount       Duration                Type
     --OPTIONS--
     1. Record INCOME
     2. Record EXPENDITURE
@@ -126,54 +86,23 @@ This C++ Personal Finance Management System is a versatile console-based applica
     2. FD
     0. Go back
     Enter your choice : 1
-    Enter amount : 8000
-    Enter duration in yrs : 3
-    Enter monthly investment amount : 500
+    Enter amount : 500
+    Enter duration in yrs : 5
+    Enter monthly investment amount : 100
     
     Which one:
     1. SIP
     2. FD
     0. Go back
     Enter your choice : 2
-    Enter amount : 5000
-    Enter duration in yrs : 5
+    Enter amount : 800
+    Enter duration in yrs : 6
     
     Which one:
     1. SIP
     2. FD
     0. Go back
     Enter your choice : 0
-    
-    --OPTIONS--
-    1. Record INCOME
-    2. Record EXPENDITURE
-    3. Make Investment
-    4. Finance Information
-    5. Investment Information
-    0. Exit
-    Enter choice : 3
-    
-    Which one:
-    1. SIP
-    2. FD
-    0. Go back
-    Enter your choice : 0
-    
-    --OPTIONS--
-    1. Record INCOME
-    2. Record EXPENDITURE
-    3. Make Investment
-    4. Finance Information
-    5. Investment Information
-    0. Exit
-    Enter choice : 5
-    --MATURITY AMOUNTS--||
-    
-    Investment 1 : 28657.8 Rs
-    Info : (type,amount,duration)            SIP           8000              3Amount to be invested monthly: 500
-    
-    Investment 2 : 7045.59 Rs
-    Info : (type,amount,duration)             FD           5000              5
     
     --OPTIONS--
     1. Record INCOME
@@ -187,16 +116,35 @@ This C++ Personal Finance Management System is a versatile console-based applica
     |        Personal Finance        |
     -----------------------------------
     
-    ||--BALANCE--: 19000||
+    ||--BALANCE--: 3700||
     
     --SAVINGS--:
-             Amount         Description
-             Income          35000              salary
-        Expenditure           5000               shoes
+               Type         Amount         Description
+             Income           5000              Salary
+        Expenditure           2000                Rent
     
     --INVESTMENTS--
-             Amount       Duration                Type            SIP           8000              3Amount to be invested monthly: 500
-                 FD           5000              5
+               Type         Amount       Duration       Monthly amount invested
+                SIP            500              5                 100
+                 FD            800              6
+    
+    --OPTIONS--
+    1. Record INCOME
+    2. Record EXPENDITURE
+    3. Make Investment
+    4. Finance Information
+    5. Investment Information
+    0. Exit
+    Enter choice : 5
+    --MATURITY AMOUNTS--||
+    
+    Investment 1 : 6806.5 Rs
+               Type         Amount            Duration       Monthly amount invested
+                SIP            500              5                 100
+    
+    Investment 2 : 1207.33 Rs
+               Type         Amount            Duration       Monthly amount invested
+                 FD            800              6
     
     --OPTIONS--
     1. Record INCOME
