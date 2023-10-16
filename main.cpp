@@ -73,7 +73,7 @@ public:
     void display() {
         cout << setw(15) << "SIP";
         Investment::display();
-        cout << setw(20) << "Amount to be invested monthly: " << monthly << endl;
+        cout << setw(20)<<monthly << endl;
     }
 
     double maturityAmount() {
@@ -125,13 +125,13 @@ public:
         cout << "\n||--BALANCE--: " << balance << "||" << endl;
 
         cout << "\n--SAVINGS--: \n";
-        cout << setw(15) << "Amount" << setw(20) << "Description" << endl;
+        cout << setw(15) << "Type"<<setw(15)<<"Amount" << setw(20) << "Description" << endl;
         for (int i = 0; i < tcount; i++) {
             transactions[i]->display();
         }
 
         cout << "\n--INVESTMENTS--\n";
-        cout << setw(15) << "Amount" << setw(15) << "Duration" << setw(20) << "Type";
+        cout << setw(15) << "Type" << setw(15) << "Amount" << setw(15) << "Duration"<<setw(30)<<"Monthly amount invested"<<endl;
         for (int i = 0; i < icount; i++) {
             investments[i]->display();
         }
@@ -206,7 +206,7 @@ public:
                     for (int i = 0; i < manager.icount; i++) {
                         Investment* inv = manager.investments[i];
                         cout << "\nInvestment " << i + 1 << " : " << inv->maturityAmount() << " Rs" << endl;
-                        cout << "Info : (type,amount,duration)";
+                        cout<<setw(15)<<"Type"<<setw(15)<<"Amount"<<setw(20)<<"Duration"<<setw(30)<<"Monthly amount invested"<<endl;
                         inv->display();
                     }
                     break;
